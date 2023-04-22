@@ -48,6 +48,49 @@
         top: 33.292236328125px;
         border-radius: 0px;
       }
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .header,
+      .invoice {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        width: 730px;
+      }
+      .header {
+        margin-bottom: 64px;
+        margin-top: 77px;
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 36px;
+        color: #ffffff;
+      }
+      p {
+        color: #ffffff;
+      }
+      .invoices {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+      }
+      .invoice {
+        padding: 16px 32px;
+        background: #1e2139;
+        box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
+        border-radius: 8px;
+      }
+      .invoice + .invoice {
+        margin-top: 16px;
+      }
     </style>
   </head>
   <body>
@@ -59,6 +102,162 @@
           </div>
         </div>
       </aside>
+      <section>
+        <article class="header">
+          <div class="text">
+            <h1>Invoices</h1>
+            <p>There are 7 total invoices</p>
+          </div>
+          <div class="filter">
+            <p>Filter by status</p>
+          </div>
+          <div class="new-invoice">
+            <p>New Invoice</p>
+          </div>
+        </article>
+        <article class="invoices">
+          <div class="invoice">
+            <div class="id">
+              <p>#RT3080</p>
+            </div>
+            <div class="date">
+              <p>Due 19 Aug 2021</p>
+            </div>
+            <div class="name">
+              <p>Jensen Huang</p>
+            </div>
+            <div class="mony">
+              <p>£ 1,800.90</p>
+            </div>
+            <div class="status">
+              <p>Paid</p>
+            </div>
+            <div class="arrow">
+              <img src="./assets/icon-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="invoice">
+            <div class="id">
+              <p>#RT3080</p>
+            </div>
+            <div class="date">
+              <p>Due 19 Aug 2021</p>
+            </div>
+            <div class="name">
+              <p>Jensen Huang</p>
+            </div>
+            <div class="mony">
+              <p>£ 1,800.90</p>
+            </div>
+            <div class="status">
+              <p>Paid</p>
+            </div>
+            <div class="arrow">
+              <img src="./assets/icon-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="invoice">
+            <div class="id">
+              <p>#RT3080</p>
+            </div>
+            <div class="date">
+              <p>Due 19 Aug 2021</p>
+            </div>
+            <div class="name">
+              <p>Jensen Huang</p>
+            </div>
+            <div class="mony">
+              <p>£ 1,800.90</p>
+            </div>
+            <div class="status">
+              <p>Paid</p>
+            </div>
+            <div class="arrow">
+              <img src="./assets/icon-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="invoice">
+            <div class="id">
+              <p>#RT3080</p>
+            </div>
+            <div class="date">
+              <p>Due 19 Aug 2021</p>
+            </div>
+            <div class="name">
+              <p>Jensen Huang</p>
+            </div>
+            <div class="mony">
+              <p>£ 1,800.90</p>
+            </div>
+            <div class="status">
+              <p>Paid</p>
+            </div>
+            <div class="arrow">
+              <img src="./assets/icon-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="invoice">
+            <div class="id">
+              <p>#RT3080</p>
+            </div>
+            <div class="date">
+              <p>Due 19 Aug 2021</p>
+            </div>
+            <div class="name">
+              <p>Jensen Huang</p>
+            </div>
+            <div class="mony">
+              <p>£ 1,800.90</p>
+            </div>
+            <div class="status">
+              <p>Paid</p>
+            </div>
+            <div class="arrow">
+              <img src="./assets/icon-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="invoice">
+            <div class="id">
+              <p>#RT3080</p>
+            </div>
+            <div class="date">
+              <p>Due 19 Aug 2021</p>
+            </div>
+            <div class="name">
+              <p>Jensen Huang</p>
+            </div>
+            <div class="mony">
+              <p>£ 1,800.90</p>
+            </div>
+            <div class="status">
+              <p>Paid</p>
+            </div>
+            <div class="arrow">
+              <img src="./assets/icon-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+          <div class="invoice">
+            <div class="id">
+              <p>#RT3080</p>
+            </div>
+            <div class="date">
+              <p>Due 19 Aug 2021</p>
+            </div>
+            <div class="name">
+              <p>Jensen Huang</p>
+            </div>
+            <div class="mony">
+              <p>£ 1,800.90</p>
+            </div>
+            <div class="status">
+              <p>Paid</p>
+            </div>
+            <div class="arrow">
+              <img src="./assets/icon-arrow-right.svg" alt="arrow" />
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
   </body>
 </html>
